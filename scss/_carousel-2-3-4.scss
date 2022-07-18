@@ -1,0 +1,14 @@
+@import 'maps.scss';
+
+section.carousel{
+    div.carousel_zapatillas{
+        div{
+            div{
+               div.card:hover {
+                border: 0.5px solid map-get($palette , dark );
+                box-shadow: 4px 4px 4px  rgb(202, 202, 202);
+               }
+            }
+        }
+    }
+}

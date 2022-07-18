@@ -1,0 +1,18 @@
+@import 'maps.scss';
+
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+    background-color: map-get($palette , dark );
+    color: map-get($palette , light);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+@mixin hover_flexbox {
+    color: rgb(180, 177, 177);
+    
+}

@@ -1,0 +1,43 @@
+@import 'maps.scss';
+
+
+section.inicio{
+    position: relative;
+    div.frase{
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 10%;
+        width: 350px;
+        height: 100%;
+        align-items: center;
+        div{
+            width: 100%;
+            text-align: start;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+        }
+    }
+    div.img_frase{
+        width: 100%;
+        img{
+            width: 100%; 
+        }
+    }
+}
+
+@media (max-width:991px){
+    section.inicio{
+        div.frase{
+            width: 320px;
+            div{
+                p.parrafo_2{
+                    text-align: center;                    
+                }
+            }
+        }
+
+    }
+}

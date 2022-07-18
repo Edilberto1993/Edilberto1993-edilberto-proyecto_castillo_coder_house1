@@ -1,0 +1,18 @@
+@import 'maps.scss';
+
+footer{
+    background-color: map-get($palette , dark ) ;
+    div{
+        div{
+            
+            li{
+                list-style: none;
+                text-align: start;
+            }
+        }
+
+    }
+    div.footer{
+        background-color: map-get($palette , darkb );
+    }
+}

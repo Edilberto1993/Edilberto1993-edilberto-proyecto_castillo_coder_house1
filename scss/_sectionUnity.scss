@@ -1,0 +1,12 @@
+@import 'maps.scss';
+
+section.unity{
+    background-color:map-get($palette , lila )  ;
+    div{
+        div{
+            h3{
+                color: map-get($palette , light );
+            }
+        }
+    }
+}

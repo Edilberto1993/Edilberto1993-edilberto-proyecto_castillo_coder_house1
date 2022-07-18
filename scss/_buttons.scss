@@ -1,0 +1,17 @@
+@use 'mixins';
+
+section.carousel{
+
+    div.card-body{
+        a{
+            @include mixins.flexbox 
+        }
+        a:hover{
+            @include mixins.hover_flexbox
+        }
+
+    }
+    
+}
+
+

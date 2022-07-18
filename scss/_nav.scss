@@ -1,0 +1,94 @@
+@import 'maps.scss';
+nav{
+    #btn-menu{
+        display: none;      
+    }
+    height: 50px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    background-color: map-get($palette , light );
+    position: sticky;
+    top: 0;
+    z-index: 800;
+    div{
+        height: 100%;
+        div.menu{
+            width: 70px;
+            cursor: pointer;
+            label{
+                font-size: 30px;
+                color: map-get($palette , dark );
+                cursor: pointer;  
+            }   
+        }
+        div.nav_1{
+            a{
+              text-decoration: none;
+              color: map-get($palette , dark );
+              font-size: 15px;
+            }
+        }
+        div.nav_2{
+            input{
+                width: 280px;
+                height: 30px;
+                padding-left: 10px;
+                outline: none;
+                border: none;
+                background-color: map-get($palette , greyl );
+            }
+        }
+        div.icons{
+            display: flex;
+            a{
+                width: 70px;
+                font-size: 24px;
+                color: map-get($palette , dark );
+            }
+            a .bi-heart{
+                font-size: 19px;
+            }
+            a .bi-bag-check{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    #btn-menu:checked ~ .nav_1 {
+        opacity: 1;
+        visibility: visible; 
+        transform: translateX(0%);         
+    }
+
+    div.nav_1{ 
+    position: map-get($nav_1 , position );
+    background-color: map-get($palette , light );
+    width: map-get($nav_1, width );
+    height: map-get($nav_1 , height );
+    top: map-get($nav_1, top );
+    left: map-get($nav_1, left );
+    transition: map-get($nav_1 , transition );
+     transform: map-get($nav_1 , transform );
+    opacity: map-get($nav_1 , opacity );
+    visibility: map-get($nav_1 , visibility );
+    a{
+        
+        display: block;
+        padding: 10px 10px;
+        font-size: 40px;   
+    }
+    div.close{
+        position: absolute;
+        font-size: 30px;
+        right: 5px;
+        top: 10px;   
+    }
+     }
+     section.inicio{
+        position: static;
+
+     } 
+    
+}
+
