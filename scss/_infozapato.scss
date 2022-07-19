@@ -1,0 +1,42 @@
+main.navinfo{
+section{
+    display: flex;
+    div.zapatilla{
+        width: 1408px;
+        height: 600px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);  
+    }
+    div.info{
+        width: 490px;
+        height: 848px;
+       
+        background-color: aquamarine; 
+        div{
+            margin: 30px 20px ;
+            background-color: rgb(140, 112, 167);
+        }
+        
+    }
+}
+    
+        
+
+}
+@media (max-width:991px){
+    main.navinfo{ 
+        section{
+            display: block;
+            div.zapatilla{
+                display: flex;
+                width: 100%;
+                align-items: end;
+            }
+            div.info{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+    }
+}

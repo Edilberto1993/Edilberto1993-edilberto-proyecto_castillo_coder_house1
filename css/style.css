@@ -157,3 +157,37 @@ section.carousel div.carousel_zapatillas div div div.card:hover {
   border: 0.5px solid rgb(15, 15, 15);
   box-shadow: 4px 4px 4px rgb(202, 202, 202);
 }
+
+main.navinfo section {
+  display: flex;
+}
+main.navinfo section div.zapatilla {
+  width: 1408px;
+  height: 600px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+main.navinfo section div.info {
+  width: 490px;
+  height: 848px;
+  background-color: aquamarine;
+}
+main.navinfo section div.info div {
+  margin: 30px 20px;
+  background-color: rgb(140, 112, 167);
+}
+
+@media (max-width: 991px) {
+  main.navinfo section {
+    display: block;
+  }
+  main.navinfo section div.zapatilla {
+    display: flex;
+    width: 100%;
+    align-items: end;
+  }
+  main.navinfo section div.info {
+    width: 100%;
+    height: auto;
+  }
+}
