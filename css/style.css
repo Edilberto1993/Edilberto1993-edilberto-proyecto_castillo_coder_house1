@@ -1,6 +1,6 @@
 nav {
   height: 50px;
-  border-bottom: 1px solid rgb(167, 167, 167);
+  border-bottom: 1px solid rgb(202, 202, 202);
   background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
@@ -158,36 +158,96 @@ section.carousel div.carousel_zapatillas div div div.card:hover {
   box-shadow: 4px 4px 4px rgb(202, 202, 202);
 }
 
-main.navinfo section {
+main.navinfo {
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+main.navinfo section div.infoprincipal {
   display: flex;
 }
-main.navinfo section div.zapatilla {
+main.navinfo section div.infoprincipal div.zapatilla {
   width: 1408px;
-  height: 600px;
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
-main.navinfo section div.info {
-  width: 490px;
-  height: 848px;
-  background-color: aquamarine;
+main.navinfo section div.infoprincipal div.info {
+  position: sticky;
+  top: 49px;
+  border-left: 1px solid rgb(211, 211, 211);
+  height: 900px;
 }
-main.navinfo section div.info div {
-  margin: 30px 20px;
-  background-color: rgb(140, 112, 167);
+main.navinfo section div.infoprincipal div.info div.info1 {
+  width: 493px;
+  padding: 30px 60px;
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.tallas button {
+  width: 70px;
+  height: 40px;
+  outline: none;
+  color: rgb(85, 83, 83);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(182, 182, 182);
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.botton {
+  margin-top: 60px;
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.botton div {
+  display: flex;
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.botton div button {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.botton div button:hover {
+  color: rgb(131, 131, 131);
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.botton div.heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 10px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 60px;
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.botton div.heart a {
+  color: rgb(0, 0, 0);
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.anuncio {
+  margin-top: 50px;
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div.anuncio div a {
+  color: rgb(0, 0, 0);
 }
 
+@media (max-width: 1279px) and (min-width: 989px) {
+  main.navinfo section div.infoprincipal div.info div.info1 {
+    width: 275px;
+    padding: 30px 20px;
+  }
+  main.navinfo section div.infoprincipal div.info div.info1 div h1 {
+    font-size: 32px;
+  }
+}
 @media (max-width: 991px) {
-  main.navinfo section {
+  main.navinfo section div.infoprincipal {
     display: block;
   }
-  main.navinfo section div.zapatilla {
-    display: flex;
+  main.navinfo section div.infoprincipal div.zapatilla {
     width: 100%;
     align-items: end;
   }
-  main.navinfo section div.info {
+  main.navinfo section div.infoprincipal div.zapatilla div.imgzapatilla div img {
     width: 100%;
+  }
+  main.navinfo section div.infoprincipal div.zapatilla div.imgzapatilla div.imgsecond {
+    display: none;
+  }
+  main.navinfo section div.infoprincipal div.info {
     height: auto;
+  }
+  main.navinfo section div.infoprincipal div.info div.info1 {
+    width: 100%;
+    padding: 20px 15px 30px 15px;
   }
 }
