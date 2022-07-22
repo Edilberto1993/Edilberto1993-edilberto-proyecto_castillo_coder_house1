@@ -2,12 +2,18 @@
 
 footer{
     background-color: map-get($palette , dark ) ;
+    
     div{
+        margin-top: 30px;
         div{
             
             li{
                 list-style: none;
                 text-align: start;
+                span{
+                    font-size: 20px;
+                    font-weight: 600;
+                }
             }
         }
 

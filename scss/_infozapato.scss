@@ -7,8 +7,15 @@ main.navinfo{
                 width: 1408px;
                 text-align: center;
                 background-color: rgb(255, 255, 255);
-                
+                div.infozapatilla{
+                    div{
+                        h1{
+                            font-size: 25px;
+                        }
+                    }
+                }
             }
+
             div.info{
                 position: sticky;
                 top: 49px;
@@ -18,6 +25,11 @@ main.navinfo{
                     width: 493px;
                     padding: 30px 60px;
                     div{
+                        div{
+                            h4{
+                                font-size: 40px;
+                            }
+                        }
                         div.tallas{
                             button{
                                 width: 70px;
@@ -87,9 +99,12 @@ main.navinfo{
                        width: 275px;
                        padding: 30px 20px;
                        div{
-                        h1{
-                            font-size: 32px;
+                        div{
+                            h4{
+                                font-size: 32px;
+                            }
                         }
+                        
                        }
                     }
                   

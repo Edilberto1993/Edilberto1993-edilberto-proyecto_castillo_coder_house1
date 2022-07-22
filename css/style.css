@@ -87,14 +87,22 @@ section.unity {
 }
 section.unity div div h3 {
   color: rgb(255, 255, 255);
+  margin-bottom: 30px;
 }
 
 footer {
   background-color: rgb(15, 15, 15);
 }
+footer div {
+  margin-top: 30px;
+}
 footer div div li {
   list-style: none;
   text-align: start;
+}
+footer div div li span {
+  font-size: 20px;
+  font-weight: 600;
 }
 footer div.footer {
   background-color: rgb(54, 54, 54);
@@ -169,6 +177,9 @@ main.navinfo section div.infoprincipal div.zapatilla {
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
+main.navinfo section div.infoprincipal div.zapatilla div.infozapatilla div h1 {
+  font-size: 25px;
+}
 main.navinfo section div.infoprincipal div.info {
   position: sticky;
   top: 49px;
@@ -178,6 +189,9 @@ main.navinfo section div.infoprincipal div.info {
 main.navinfo section div.infoprincipal div.info div.info1 {
   width: 493px;
   padding: 30px 60px;
+}
+main.navinfo section div.infoprincipal div.info div.info1 div div h4 {
+  font-size: 40px;
 }
 main.navinfo section div.infoprincipal div.info div.info1 div div.tallas button {
   width: 70px;
@@ -225,7 +239,7 @@ main.navinfo section div.infoprincipal div.info div.info1 div div.anuncio div a 
     width: 275px;
     padding: 30px 20px;
   }
-  main.navinfo section div.infoprincipal div.info div.info1 div h1 {
+  main.navinfo section div.infoprincipal div.info div.info1 div div h4 {
     font-size: 32px;
   }
 }
